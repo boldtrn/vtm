@@ -20,7 +20,7 @@ sourceSets {
     }
 }
 
-mainClassName = "org.oscim.test.MapsforgeTest"
+mainClassName = "org.oscim.test.ESRITest"
 run {
     if (project.hasProperty("args")) {
         args project.getProperty("args").split(",")
